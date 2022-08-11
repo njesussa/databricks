@@ -32,6 +32,11 @@ for i in dbutils.fs.ls('/mnt/raw/autoloader/input'):
 
 # COMMAND ----------
 
+# MAGIC %sql
+# MAGIC select * from bronze.crimes_natalia
+
+# COMMAND ----------
+
 display(df)
 
 # COMMAND ----------
